@@ -1,0 +1,3 @@
+# Placeholder for custom fonts
+# Add Roboto-Regular.ttf, Roboto-Medium.ttf, Roboto-Bold.ttf here
+# Or remove the fonts section from pubspec.yaml to use system fonts

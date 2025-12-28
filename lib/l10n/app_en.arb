@@ -1,0 +1,425 @@
+{
+  "@@locale": "en",
+  "appTitle": "View Ads",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "welcomeMessage": "Welcome to View Ads!",
+  "@welcomeMessage": {
+    "description": "Welcome message shown on the home screen"
+  },
+  "login": "Login",
+  "@login": {
+    "description": "Login button text"
+  },
+  "register": "Register",
+  "@register": {
+    "description": "Register button text"
+  },
+  "continueAsGuest": "Continue as Guest",
+  "@continueAsGuest": {
+    "description": "Continue as guest button"
+  },
+  "email": "Email",
+  "@email": {
+    "description": "Email field label"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "Password field label"
+  },
+  "confirmPassword": "Confirm Password",
+  "@confirmPassword": {
+    "description": "Confirm password field label"
+  },
+  "forgotPassword": "Forgot Password?",
+  "@forgotPassword": {
+    "description": "Forgot password link"
+  },
+  "createAccount": "Create Account",
+  "@createAccount": {
+    "description": "Create account button"
+  },
+  "alreadyHaveAccount": "Already have an account?",
+  "@alreadyHaveAccount": {
+    "description": "Already have account text"
+  },
+  "dontHaveAccount": "Don't have an account?",
+  "@dontHaveAccount": {
+    "description": "Don't have account text"
+  },
+  "home": "Home",
+  "@home": {
+    "description": "Home tab label"
+  },
+  "ads": "Ads",
+  "@ads": {
+    "description": "Ads tab label"
+  },
+  "wallet": "Wallet",
+  "@wallet": {
+    "description": "Wallet tab label"
+  },
+  "leaderboard": "Leaderboard",
+  "@leaderboard": {
+    "description": "Leaderboard tab label"
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "Profile tab label"
+  },
+  "dailyAds": "Daily Ads",
+  "@dailyAds": {
+    "description": "Daily ads section title"
+  },
+  "watchAd": "Watch Ad",
+  "@watchAd": {
+    "description": "Watch ad button"
+  },
+  "rateAd": "Rate Ad",
+  "@rateAd": {
+    "description": "Rate ad button"
+  },
+  "submitRating": "Submit Rating",
+  "@submitRating": {
+    "description": "Submit rating button"
+  },
+  "skipAd": "Skip",
+  "@skipAd": {
+    "description": "Skip ad button (shown after minimum watch time)"
+  },
+  "adCompleted": "Ad Completed!",
+  "@adCompleted": {
+    "description": "Message shown when ad viewing is complete"
+  },
+  "earnedCoins": "You earned {coins} coins!",
+  "@earnedCoins": {
+    "description": "Message showing earned coins",
+    "placeholders": {
+      "coins": {
+        "type": "int",
+        "example": "25"
+      }
+    }
+  },
+  "watchTime": "Watch time: {seconds}s",
+  "@watchTime": {
+    "description": "Watch time indicator",
+    "placeholders": {
+      "seconds": {
+        "type": "int",
+        "example": "15"
+      }
+    }
+  },
+  "minimumWatchTime": "Minimum watch time: {seconds}s",
+  "@minimumWatchTime": {
+    "description": "Minimum watch time required",
+    "placeholders": {
+      "seconds": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "addComment": "Add a comment (optional)",
+  "@addComment": {
+    "description": "Optional comment hint text"
+  },
+  "videoAd": "Video Ad",
+  "@videoAd": {
+    "description": "Video ad type label"
+  },
+  "imageAd": "Image Ad",
+  "@imageAd": {
+    "description": "Image ad type label"
+  },
+  "playableAd": "Playable Ad",
+  "@playableAd": {
+    "description": "Playable ad type label"
+  },
+  "balance": "Balance",
+  "@balance": {
+    "description": "Balance label"
+  },
+  "coins": "Coins",
+  "@coins": {
+    "description": "Coins label"
+  },
+  "coinsAmount": "{amount} coins",
+  "@coinsAmount": {
+    "description": "Coins amount display",
+    "placeholders": {
+      "amount": {
+        "type": "int",
+        "example": "1500"
+      }
+    }
+  },
+  "withdraw": "Withdraw",
+  "@withdraw": {
+    "description": "Withdraw button"
+  },
+  "withdrawalHistory": "Withdrawal History",
+  "@withdrawalHistory": {
+    "description": "Withdrawal history section"
+  },
+  "transactionHistory": "Transaction History",
+  "@transactionHistory": {
+    "description": "Transaction history section"
+  },
+  "paypalEmail": "PayPal Email",
+  "@paypalEmail": {
+    "description": "PayPal email field label"
+  },
+  "enterPaypalEmail": "Enter your PayPal email",
+  "@enterPaypalEmail": {
+    "description": "PayPal email hint text"
+  },
+  "minimumWithdrawal": "Minimum withdrawal: {coins} coins (${amount})",
+  "@minimumWithdrawal": {
+    "description": "Minimum withdrawal info",
+    "placeholders": {
+      "coins": {
+        "type": "int",
+        "example": "5000"
+      },
+      "amount": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "withdrawalAmount": "Withdrawal Amount",
+  "@withdrawalAmount": {
+    "description": "Withdrawal amount label"
+  },
+  "requestWithdrawal": "Request Withdrawal",
+  "@requestWithdrawal": {
+    "description": "Request withdrawal button"
+  },
+  "withdrawalPending": "Pending",
+  "@withdrawalPending": {
+    "description": "Withdrawal pending status"
+  },
+  "withdrawalApproved": "Approved",
+  "@withdrawalApproved": {
+    "description": "Withdrawal approved status"
+  },
+  "withdrawalRejected": "Rejected",
+  "@withdrawalRejected": {
+    "description": "Withdrawal rejected status"
+  },
+  "withdrawalSubmitted": "Withdrawal request submitted!",
+  "@withdrawalSubmitted": {
+    "description": "Withdrawal submission confirmation"
+  },
+  "insufficientBalance": "Insufficient balance",
+  "@insufficientBalance": {
+    "description": "Insufficient balance error"
+  },
+  "topEarners": "Top Earners",
+  "@topEarners": {
+    "description": "Top earners section"
+  },
+  "thisWeek": "This Week",
+  "@thisWeek": {
+    "description": "This week filter"
+  },
+  "thisMonth": "This Month",
+  "@thisMonth": {
+    "description": "This month filter"
+  },
+  "allTime": "All Time",
+  "@allTime": {
+    "description": "All time filter"
+  },
+  "rank": "Rank",
+  "@rank": {
+    "description": "Rank label"
+  },
+  "yourRank": "Your Rank: #{rank}",
+  "@yourRank": {
+    "description": "User's rank display",
+    "placeholders": {
+      "rank": {
+        "type": "int",
+        "example": "42"
+      }
+    }
+  },
+  "dailyBonus": "Daily Bonus",
+  "@dailyBonus": {
+    "description": "Daily bonus section"
+  },
+  "claimBonus": "Claim Bonus",
+  "@claimBonus": {
+    "description": "Claim bonus button"
+  },
+  "bonusClaimed": "Bonus claimed! +{coins} coins",
+  "@bonusClaimed": {
+    "description": "Bonus claimed message",
+    "placeholders": {
+      "coins": {
+        "type": "int",
+        "example": "100"
+      }
+    }
+  },
+  "streak": "Streak",
+  "@streak": {
+    "description": "Streak label"
+  },
+  "currentStreak": "Current Streak: {days} days",
+  "@currentStreak": {
+    "description": "Current streak display",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "7"
+      }
+    }
+  },
+  "streakBonus": "Streak Bonus: +{percent}%",
+  "@streakBonus": {
+    "description": "Streak bonus percentage",
+    "placeholders": {
+      "percent": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+  "nextBonus": "Next bonus in: {hours}h {minutes}m",
+  "@nextBonus": {
+    "description": "Next bonus countdown",
+    "placeholders": {
+      "hours": {
+        "type": "int",
+        "example": "5"
+      },
+      "minutes": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "totalEarned": "Total Earned",
+  "@totalEarned": {
+    "description": "Total earned label"
+  },
+  "totalWithdrawn": "Total Withdrawn",
+  "@totalWithdrawn": {
+    "description": "Total withdrawn label"
+  },
+  "currentBalance": "Current Balance",
+  "@currentBalance": {
+    "description": "Current balance label"
+  },
+  "adsWatched": "Ads Watched",
+  "@adsWatched": {
+    "description": "Ads watched statistic"
+  },
+  "memberSince": "Member since {date}",
+  "@memberSince": {
+    "description": "Member since date",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "Jan 15, 2024"
+      }
+    }
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings menu item"
+  },
+  "darkMode": "Dark Mode",
+  "@darkMode": {
+    "description": "Dark mode toggle"
+  },
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications toggle"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language setting"
+  },
+  "logout": "Logout",
+  "@logout": {
+    "description": "Logout button"
+  },
+  "deleteAccount": "Delete Account",
+  "@deleteAccount": {
+    "description": "Delete account button"
+  },
+  "areYouSure": "Are you sure?",
+  "@areYouSure": {
+    "description": "Confirmation dialog title"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Confirm button"
+  },
+  "loading": "Loading...",
+  "@loading": {
+    "description": "Loading indicator text"
+  },
+  "error": "Error",
+  "@error": {
+    "description": "Error title"
+  },
+  "tryAgain": "Try Again",
+  "@tryAgain": {
+    "description": "Try again button"
+  },
+  "noAdsAvailable": "No ads available right now",
+  "@noAdsAvailable": {
+    "description": "No ads message"
+  },
+  "checkBackLater": "Check back later for more ads!",
+  "@checkBackLater": {
+    "description": "Check back later message"
+  },
+  "noTransactions": "No transactions yet",
+  "@noTransactions": {
+    "description": "No transactions message"
+  },
+  "startWatching": "Start watching ads to earn coins!",
+  "@startWatching": {
+    "description": "Start watching ads prompt"
+  },
+  "invalidEmail": "Please enter a valid email",
+  "@invalidEmail": {
+    "description": "Invalid email error"
+  },
+  "passwordTooShort": "Password must be at least 6 characters",
+  "@passwordTooShort": {
+    "description": "Password too short error"
+  },
+  "passwordsDoNotMatch": "Passwords do not match",
+  "@passwordsDoNotMatch": {
+    "description": "Passwords don't match error"
+  },
+  "username": "Username",
+  "@username": {
+    "description": "Username field label"
+  },
+  "editProfile": "Edit Profile",
+  "@editProfile": {
+    "description": "Edit profile button"
+  },
+  "saveChanges": "Save Changes",
+  "@saveChanges": {
+    "description": "Save changes button"
+  },
+  "changesSaved": "Changes saved successfully",
+  "@changesSaved": {
+    "description": "Changes saved confirmation"
+  }
+}

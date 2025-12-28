@@ -1,0 +1,23 @@
+# Flutter Native Splash configuration
+
+flutter_native_splash:
+  # Background color
+  color: "#6750A4"
+
+  # Optional background image
+  # background_image: "assets/splash_background.png"
+
+  # Android 12+ uses a centered icon
+  android_12:
+    color: "#6750A4"
+    icon_background_color: "#6750A4"
+
+  # iOS settings
+  ios: true
+
+  # Web settings
+  web: true
+  web_color: "#6750A4"
+
+  # Fullscreen mode
+  fullscreen: true

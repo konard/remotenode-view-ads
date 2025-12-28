@@ -1,0 +1,31 @@
+# Flutter analysis options for View Ads app
+
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Prefer const constructors for better performance
+    prefer_const_constructors: true
+    prefer_const_declarations: true
+    prefer_const_literals_to_create_immutables: true
+
+    # Code style
+    prefer_single_quotes: true
+    avoid_print: true
+    avoid_unnecessary_containers: true
+    sized_box_for_whitespace: true
+    use_colored_box: true
+
+    # Documentation
+    public_member_api_docs: false
+
+    # Avoid dynamic typing
+    avoid_dynamic_calls: false
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/generated/**"
+  errors:
+    invalid_annotation_target: ignore
